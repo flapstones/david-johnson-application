@@ -1,4 +1,4 @@
-# davidjohnsonaapplication
+# davidjohnsonapplication
 
 This is my application for Holiday Extras.
 
