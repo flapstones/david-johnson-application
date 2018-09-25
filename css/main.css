@@ -1,0 +1,94 @@
+.main-feed {
+	padding-top: 20px;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+.main-feed-list {
+	overflow: hidden;
+}
+.photo-item {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 2px 2px #ddd;
+	padding: 10px;
+	border-radius: 3px;
+	margin-top: 20px;
+	float: left;
+	margin: 20px 0 0 0;
+	width: 20%;
+}
+.photo-item img {
+	cursor: pointer;
+	width: 100%;
+}
+.favourite {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background: url('img/fav-sprite.png') no-repeat 0 -16px;
+	display: inline-block;
+}
+.favourite.selected {
+	background-position: 0 0;
+}
+.icons {
+	height: 16px;
+	margin-top: 7px;
+	padding-top: 5px;
+    border-top: 1px dotted #ccc;
+}
+.content {
+	margin-top: 10px;
+	font-size: 12px;
+	max-width: 150px;
+}
+.content p {
+	word-break: break-all;
+}
+.small .content {
+	margin-left: 10px;
+	display: inline-block;
+}
+.small img {
+	float: left;
+}
+.loading {
+	width: 100%;
+	height: 100%;
+	background: #fff url('img/ajax-loader-spin.gif') center center no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.large-photo {
+	border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 2px 3px #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 500px;
+    margin-left: 10px;
+}
+.large-photo  img {
+	float: left;
+	margin-right: 20px;
+}
+.large-photo .content {
+	max-width: 100%;
+}
+#back {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
