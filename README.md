@@ -14,9 +14,9 @@ I have commented the code to explain how I have built and structured the applica
 
 1. A favourite icon 'star' to each photo.  This turns gold if you 'favourite' it.
 
-2. Search functionality based on off the title of the photo.
+2. Search functionality based on the title of the photo.
 
-3. A responsive 'tiled' layout, that changes positions of the photos as you resize.
+3. A responsive 'tiled' layout, that changes position of the photos as you resize.
 
 4. Infinite scroll functionality, which loads a new 20 photos when you scroll to the bottom of the feed.
 
